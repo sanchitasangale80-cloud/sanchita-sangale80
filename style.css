@@ -1,0 +1,130 @@
+/* General Styles */
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  background: #fffafc;
+  color: #333;
+}
+
+/* Header */
+header {
+  background: linear-gradient(135deg, #f8cdda, #fbc7d4);
+  color: #4a4a4a;
+  padding: 40px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+  color: #333;
+}
+header p {
+  font-style: italic;
+  color: #555;
+  margin-top: 8px;
+}
+
+/* Navbar */
+nav {
+  background: #ffd6e0;
+  padding: 12px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+nav a {
+  color: #333;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s;
+  padding: 8px 10px;
+  border-radius: 5px;
+}
+nav a:hover {
+  color: white;
+  background-color: #e75480;
+}
+
+/* Sections */
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+.section-light {
+  background: #fffafc;
+}
+.section-dark {
+  background: #ffeef5;
+}
+
+/* Section Titles */
+section h2 {
+  font-size: 2em;
+  margin-bottom: 25px;
+  color: #d94f7b;
+}
+
+/* Services Cards */
+.services-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.service-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  width: 250px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+.service-card:hover {
+  transform: scale(1.05);
+  background: #ffe6f2;
+}
+
+/* INTERACTIVE SECTION */
+#interactive h2 {
+  font-size: 1.8rem;
+  margin-bottom: 25px;
+  color: #d94f7b;
+}
+
+.btn-box {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.btn-box button {
+  background: linear-gradient(135deg, #ffb6c1, #ffc1cc);
+  padding: 12px 22px;
+  font-size: 16px;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  transition: 0.3s;
+}
+
+.btn-box button:hover {
+  transform: scale(1.1);
+  background: linear-gradient(135deg, #ff9eb5, #ffb6c1);
+}
+
+/* Footer */
+footer {
+  background: #ffd6e0;
+  color: #333;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+}
